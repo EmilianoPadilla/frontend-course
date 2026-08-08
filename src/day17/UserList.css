@@ -1,0 +1,30 @@
+
+.user-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.user-name {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.user-email {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.user-card h2 {
+  margin: 0;
+}
+
+.user-card p {
+  color: gray;
+}
