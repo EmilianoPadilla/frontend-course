@@ -1,0 +1,38 @@
+asd
+> npm run dev
+
+> my-app@0.0.0 dev
+> vite
+
+
+  VITE v8.1.0  ready in 818 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+7:26:52 p.m. [vite] (client) hmr update /src/App.tsx
+7:28:38 p.m. [vite] (client) hmr update /src/day24/MovieDetail.tsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
