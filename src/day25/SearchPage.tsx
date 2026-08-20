@@ -5,7 +5,7 @@ import type { SearchResult } from '../day19/types'
 import useDebounce from '../day24/useDebounce'
 import MovieCard from './MovieCard'
 
-function SearchPage() {
+function SearchPageV2() {
   const [search, setSearch] = useState<string>('')
   const debouncedSearch = useDebounce(search, 500)
 
@@ -49,4 +49,4 @@ function SearchPage() {
   )
 }
 
-export default SearchPage
+export default SearchPageV2
