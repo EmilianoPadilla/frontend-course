@@ -21,7 +21,7 @@ import SearchPageV2 from './day25/SearchPage'
 import MovieDetailV2 from './day25/MovieDetail'
 import ComponentsDemo from './day26/ComponentsDemo'
 import RegisterFormV2 from './day26/RegisterForm'
-
+import UXDemo from './day27/UXDemo'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false) //A state variable that tracks whether the mobile menu is open or closed. Starts as false — menu is closed by default.
@@ -77,6 +77,10 @@ function App() {
             <Link to="/components" className="text-white hover:text-blue-300 transition-colors">Components</Link>
             <Link to="/register-v2" className="text-white hover:text-blue-300 transition-colors">Register V2</Link>
           </div>
+
+          <div className="flex gap-4 justify-center">
+            <Link to="/ux" className="text-white hover:text-blue-300 transition-colors">UX Demo</Link>
+          </div>
         </div>
 
       </nav>
@@ -103,6 +107,7 @@ function App() {
         <Route path="/movie-v3/:id" element={<MovieDetailV2 />} />
         <Route path="/components" element={<ComponentsDemo />} />
         <Route path="/register-v2" element={<RegisterFormV2 />} />
+        <Route path="/ux" element={<UXDemo />} />
       </Routes>
     </BrowserRouter>
   )
